@@ -1,13 +1,12 @@
 import './App.css';
-import BooksList from './containers/BooksList'
+import Booklist from './containers/Booklist';
+import BookForm from './containers/BookForm';
 
-const App=()=> {
-return (
-    <div className="App pb-5">
-    <BooksList />
+const App = () => (
+  <div>
+    <Booklist />
     <BookForm />
   </div>
-  );
-}
+);
 
 export default App;
